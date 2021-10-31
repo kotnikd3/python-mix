@@ -1,2 +1,2 @@
-# mix
+# python-mix
 Different projects
