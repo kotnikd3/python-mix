@@ -1,0 +1,10 @@
+version: '3.7'
+services:
+  python-mix:
+    container_name: python-mix
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/python-mix
+    command: ["./entrypoint.sh"]
