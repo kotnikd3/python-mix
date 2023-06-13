@@ -1,5 +1,7 @@
 #!/bin/bash
 
-echo "[entrypoint.sh]Executing command: python $1";
+set -ex
+
+echo "[entrypoint.sh] Running with command '$*'";
 
 python $1

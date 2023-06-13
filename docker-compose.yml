@@ -1,10 +1,10 @@
 version: '3.7'
 services:
-  python-mix:
-    container_name: python-mix
+  python-fun:
+    container_name: mix
     build:
       context: .
       dockerfile: Dockerfile
     volumes:
       - .:/python-mix
-    command: ["./entrypoint.sh"]
+    command: ["./entrypoint.sh", "birthday-paradox/main.py"]
