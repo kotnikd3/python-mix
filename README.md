@@ -2,4 +2,4 @@
 Different projects
 
 
-docker compose run python-fun
+docker compose run everything
