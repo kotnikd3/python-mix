@@ -21,9 +21,9 @@ def num_of_collisions(_num_epoch: int, _num_players: int) -> int:
     return num_collisions
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     num_epoch = 1000
     num_players = 23
 
     probability = num_of_collisions(num_epoch, num_players) / num_epoch
-    print(f"Probability for collision is: {probability}")
+    print(f'Probability for collision is: {probability}')

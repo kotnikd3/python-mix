@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/python-mix
-    command: ["./entrypoint.sh", "tree"]
+    command: ['./entrypoint.sh', 'birthday-paradox']

@@ -53,4 +53,4 @@ while(nth_root(max, 2) >= a.primelst[-1]):
         b.increment()
     a.increment()
     
-print("Stevilo rezultatov: ", len(rezultati))
+print('Stevilo rezultatov: ', len(rezultati))
