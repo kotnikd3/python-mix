@@ -10,6 +10,8 @@ elif [ "$1" = "prime-finder" ]; then
     python prime-finder/main.py
 elif [ "$1" = "tree" ]; then
     python tree/main.py
+elif [ "$1" = "euler" ]; then
+    python euler/main.py
 else
     echo "Unknown command: '$1'";
     echo "Exiting!";

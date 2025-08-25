@@ -1,5 +1,13 @@
-# python-mix
-Different projects
+# python-playground
+Python programming playground featuring various projects, algorithms, and [Project Euler](https://projecteuler.net/) solutions.
 
 
-docker compose run everything
+Build Docker image.
+```shell
+docker compose build
+```
+
+Run Docker container.
+```shell
+docker compose run --rm --entrypoint ./entrypoint.sh everything [birthday-paradox | prime-finder | tree | euler]
+```
