@@ -1,4 +1,4 @@
-# python-playground
+# coding-playground
 Python programming playground featuring various projects, algorithms, and [Project Euler](https://projecteuler.net/) solutions.
 
 
