@@ -1,5 +1,8 @@
 # gitignore based on https://github.com/github/gitignore/blob/master/Python.gitignore
 
+photos/
+members.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
